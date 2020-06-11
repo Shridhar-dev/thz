@@ -1,0 +1,12 @@
+.blaimg{
+    display:flex;
+    flex:1 1;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    
+}
