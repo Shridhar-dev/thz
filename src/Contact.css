@@ -1,0 +1,62 @@
+
+.img-div{
+    display:flex;
+    flex:1 1;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    
+}
+.list-ico{
+    text-align: start;
+}
+
+.messenger{
+    font-size: 50px;
+    color: black;
+    text-align: start;
+    margin-left:30px
+}
+input{
+    flex:1;
+    margin:30px;
+    display: block;
+    width: 61vh;
+}
+textarea{
+    flex:1;
+    margin:30px;
+    max-width: 400px;
+}
+.buton{
+    margin-right:990px;
+    background-color: white;
+}
+.container{
+    position: absolute;
+    background-color: white;
+}
+
+.footimg{
+    
+}
+@media only screen and (max-width: 1030px) {
+    input{
+    flex:1;
+    margin:30px;
+    display: block;
+    width: 41vh;
+
+    }
+    textarea{
+        flex:1;
+        margin:30px;
+        max-width: 300px;
+    }
+    
+  }
+  
