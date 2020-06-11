@@ -1,0 +1,32 @@
+.parallax-img{
+    display:flex;
+    flex:1 1;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    
+}
+.imger-text{
+    display: flex;
+    flex:1;
+    position:absolute;
+    justify-content: center;
+    align-content: center;
+    top:300px;
+    color:whitesmoke;
+    font-size: 75px;
+
+}
+.imger-div{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+
+div{
+    display: block;
+}
