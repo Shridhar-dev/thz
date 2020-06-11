@@ -1,0 +1,60 @@
+
+.portofolio-div{
+    display:flex;
+    flex:1;
+    flex-wrap:wrap;
+    background-color: ghostwhite;
+    max-width:1100px;
+    min-height:600px;
+    max-height:1300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 1.8), 0 2px 5px 0 rgba(255, 255, 255, 1.2);
+}
+.main-div{
+   background-color: black;
+}
+.div-left{
+    flex:1;
+    justify-content: center;
+    width:550;
+    height:600;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.div-right{
+   /* flex:1;*/
+    width:550;
+    height:600;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logo-img{
+    margin-top: 150px;
+}
+h3{
+    text-align: start;
+    margin-top: 40px;
+    
+}
+p{
+    
+    text-align: start;
+    font-family: 'Segoe UI';
+    margin-right:30px;
+    font-size:2.92vh;
+}
+@media only screen and (min-width: 1030px) {
+    .div-right {
+        flex:1;
+        width:550;
+        height:600;
+        margin-right: auto;
+        background-color: white;
+        border-radius: 10px;
+    }
+  }
